@@ -1,7 +1,7 @@
 {
   "name": "artalk-plugin-sample",
   "version": "1.0.0",
-  "minAppVersion": "2.8.6",
+  "minAppVersion": "2.8.7",
   "type": "module",
   "main": "./dist/artalk-plugin-sample.js",
   "module": "./dist/artalk-plugin-sample.mjs",
@@ -24,11 +24,14 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@artalk/plugin-kit": "^1.0.3",
+    "@artalk/plugin-kit": "^1.0.4",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   },
   "dependencies": {
-    "artalk": "^2.8.6"
+    "artalk": "^2.8.7"
+  },
+  "peerDependencies": {
+    "artalk": "^2.8.7"
   }
 }

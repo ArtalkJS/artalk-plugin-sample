@@ -9,12 +9,12 @@ importers:
   .:
     dependencies:
       artalk:
-        specifier: ^2.8.6
-        version: 2.8.6
+        specifier: ^2.8.7
+        version: 2.8.7
     devDependencies:
       '@artalk/plugin-kit':
-        specifier: ^1.0.3
-        version: 1.0.3
+        specifier: ^1.0.4
+        version: 1.0.4
       typescript:
         specifier: ^5.2.2
         version: 5.4.5
@@ -24,8 +24,8 @@ importers:
 
 packages:
 
-  '@artalk/plugin-kit@1.0.3':
-    resolution: {integrity: sha512-zs3Bc4+GtpeWvNIyW55Q1VhBQzBxG8VhtZxtq5I+SKx6q7XHkmgVpkQxdnnrmjdtAjkBAXQC/OxRZKmQoVj0RQ==}
+  '@artalk/plugin-kit@1.0.4':
+    resolution: {integrity: sha512-FL9ST52qw8ZBTzk0G94YYnjKV/dam92YwZ4/HYU10GNBHg28riFIpdcG9wrj0IxDyvcheGnY0IbZTtsD9l3CRw==}
 
   '@esbuild/aix-ppc64@0.20.2':
     resolution: {integrity: sha512-D+EBOJHXdNZcLJRBkhENNG8Wji2kgc9AZ9KiPr1JuZjsNtyHzrsfLRrY0tk2H2aoFu6RANO1y1iPPUCDYWkb5g==}
@@ -314,8 +314,8 @@ packages:
   argparse@1.0.10:
     resolution: {integrity: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==}
 
-  artalk@2.8.6:
-    resolution: {integrity: sha512-Wt6x9F6A9l7Bw6y8tZayheHkJJ2tF0T3yZVxtqHTpDgZOKlOI91UzBvZ2bSjScayy7JH9ZSAkTC/qVDODeUhbA==}
+  artalk@2.8.7:
+    resolution: {integrity: sha512-Pl6oKnG0mLf6/c0X93SEmUm7RqqO1zsfvf4j8EzO25pvcDn9pJdYQqLrWKupaHwO7JLvEcgq5pBBrJCLmBKGpw==}
 
   assignment@2.0.0:
     resolution: {integrity: sha512-naMULXjtgCs9SVUEtyvJNt68aF18em7/W+dhbR59kbz9cXWPEvUkCun2tqlgqRPSqZaKPpqLc5ZnwL8jVmJRvw==}
@@ -519,10 +519,10 @@ packages:
 
 snapshots:
 
-  '@artalk/plugin-kit@1.0.3':
+  '@artalk/plugin-kit@1.0.4':
     dependencies:
       '@microsoft/api-extractor': 7.46.2
-      artalk: 2.8.6
+      artalk: 2.8.7
       picocolors: 1.0.1
     transitivePeerDependencies:
       - '@types/node'
@@ -741,7 +741,7 @@ snapshots:
     dependencies:
       sprintf-js: 1.0.3
 
-  artalk@2.8.6:
+  artalk@2.8.7:
     dependencies:
       abortcontroller-polyfill: 1.7.5
       hanabi: 0.4.0
